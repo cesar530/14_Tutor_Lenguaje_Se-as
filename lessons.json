@@ -1,0 +1,395 @@
+{
+    "metadata": {
+        "title": "Sign Language Tutor - Curriculum",
+        "version": "1.0.0",
+        "author": "César Adrián Delgado Díaz",
+        "language": "ASL (American Sign Language)",
+        "total_lessons": 12,
+        "last_updated": "2026-01-15"
+    },
+    "levels": [
+        {
+            "id": "level_1",
+            "name": "Fundamentos",
+            "description": "Aprende los elementos básicos del lenguaje de señas ASL",
+            "lessons": [
+                {
+                    "id": "L1_01_alphabet_az",
+                    "title": "Alfabeto ASL (A-M)",
+                    "description": "Aprende las primeras 13 letras del alfabeto en ASL",
+                    "duration_minutes": 20,
+                    "difficulty": "beginner",
+                    "signs": ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M"],
+                    "objectives": [
+                        "Reconocer la posición de mano para cada letra",
+                        "Ejecutar cada seña con claridad",
+                        "Deletrear palabras simples"
+                    ],
+                    "tips": [
+                        "Mantén la mano al nivel del hombro",
+                        "Los dedos deben estar claramente definidos",
+                        "Practica frente a un espejo"
+                    ],
+                    "practice_words": ["MAMA", "CAFE", "LAGO", "HOLA"]
+                },
+                {
+                    "id": "L1_02_alphabet_nz",
+                    "title": "Alfabeto ASL (N-Z)",
+                    "description": "Completa el alfabeto ASL con las últimas 13 letras",
+                    "duration_minutes": 20,
+                    "difficulty": "beginner",
+                    "signs": ["N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"],
+                    "objectives": [
+                        "Completar el conocimiento del alfabeto",
+                        "Diferenciar señas similares (M/N, U/V)",
+                        "Aumentar velocidad de deletreo"
+                    ],
+                    "tips": [
+                        "Presta atención a la orientación de la palma",
+                        "La Z requiere movimiento en el aire",
+                        "Practica transiciones suaves entre letras"
+                    ],
+                    "practice_words": ["PERRO", "QUESO", "TAXI", "ZONA"]
+                },
+                {
+                    "id": "L1_03_numbers",
+                    "title": "Números (0-9)",
+                    "description": "Aprende a representar números del 0 al 9 en ASL",
+                    "duration_minutes": 15,
+                    "difficulty": "beginner",
+                    "signs": ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"],
+                    "objectives": [
+                        "Representar cada número claramente",
+                        "Contar del 1 al 10 fluidamente",
+                        "Comunicar números de teléfono"
+                    ],
+                    "tips": [
+                        "Los números 1-5 usan una mano",
+                        "Los números 6-9 tienen variaciones específicas",
+                        "Practica contando objetos"
+                    ],
+                    "practice_numbers": ["123", "456", "789", "2025"]
+                }
+            ]
+        },
+        {
+            "id": "level_2",
+            "name": "Palabras Básicas",
+            "description": "Aprende palabras esenciales para comunicación básica",
+            "lessons": [
+                {
+                    "id": "L2_01_greetings",
+                    "title": "Saludos",
+                    "description": "Señas esenciales para saludar y despedirse",
+                    "duration_minutes": 15,
+                    "difficulty": "beginner",
+                    "signs": ["HELLO", "GOODBYE", "PLEASE", "THANK_YOU"],
+                    "objectives": [
+                        "Iniciar y terminar conversaciones",
+                        "Expresar cortesía básica",
+                        "Reconocer saludos de otros"
+                    ],
+                    "tips": [
+                        "HELLO usa movimiento de saludo",
+                        "THANK YOU parte de la barbilla",
+                        "Mantén expresión facial amigable"
+                    ],
+                    "practice_scenarios": [
+                        "Saluda a un amigo",
+                        "Despídete al irte",
+                        "Agradece por ayuda"
+                    ]
+                },
+                {
+                    "id": "L2_02_responses",
+                    "title": "Respuestas Básicas",
+                    "description": "Aprende a responder sí, no y expresiones comunes",
+                    "duration_minutes": 15,
+                    "difficulty": "beginner",
+                    "signs": ["YES", "NO", "SORRY", "HELP"],
+                    "objectives": [
+                        "Responder preguntas simples",
+                        "Pedir ayuda cuando la necesites",
+                        "Disculparse apropiadamente"
+                    ],
+                    "tips": [
+                        "YES es como asentir con la mano",
+                        "NO usa los dedos índice y medio",
+                        "HELP es un puño sobre palma abierta"
+                    ],
+                    "practice_scenarios": [
+                        "Responde a una pregunta",
+                        "Pide ayuda en una tienda",
+                        "Discúlpate por un error"
+                    ]
+                },
+                {
+                    "id": "L2_03_emotions",
+                    "title": "Emociones",
+                    "description": "Expresa sentimientos básicos en ASL",
+                    "duration_minutes": 20,
+                    "difficulty": "intermediate",
+                    "signs": ["LOVE", "FRIEND"],
+                    "objectives": [
+                        "Expresar amor y amistad",
+                        "Comunicar emociones básicas",
+                        "Combinar señas con expresiones faciales"
+                    ],
+                    "tips": [
+                        "LOVE cruza los brazos sobre el pecho",
+                        "Las expresiones faciales son cruciales",
+                        "FRIEND engancha los dedos índices"
+                    ],
+                    "practice_scenarios": [
+                        "Expresa amor a alguien cercano",
+                        "Presenta a un amigo"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "level_3",
+            "name": "Frases Simples",
+            "description": "Combina señas para formar oraciones básicas",
+            "lessons": [
+                {
+                    "id": "L3_01_introductions",
+                    "title": "Presentaciones",
+                    "description": "Aprende a presentarte y preguntar nombres",
+                    "duration_minutes": 25,
+                    "difficulty": "intermediate",
+                    "signs": ["HELLO", "MY_NAME"],
+                    "phrases": [
+                        {
+                            "phrase": "HELLO MY NAME [deletrear]",
+                            "meaning": "Hola, mi nombre es...",
+                            "context": "Presentación personal"
+                        },
+                        {
+                            "phrase": "NICE TO MEET YOU",
+                            "meaning": "Mucho gusto",
+                            "context": "Después de conocer a alguien"
+                        }
+                    ],
+                    "objectives": [
+                        "Presentarte usando tu nombre deletreado",
+                        "Preguntar el nombre de otros",
+                        "Responder a presentaciones"
+                    ],
+                    "tips": [
+                        "Deletrea tu nombre claramente",
+                        "Usa expresiones faciales apropiadas",
+                        "Mantén contacto visual"
+                    ]
+                },
+                {
+                    "id": "L3_02_questions",
+                    "title": "Preguntas Básicas",
+                    "description": "Formula preguntas simples en ASL",
+                    "duration_minutes": 25,
+                    "difficulty": "intermediate",
+                    "signs": ["YES", "NO", "HELP", "PLEASE"],
+                    "phrases": [
+                        {
+                            "phrase": "HELP PLEASE",
+                            "meaning": "¿Me puedes ayudar, por favor?",
+                            "context": "Pedir asistencia"
+                        },
+                        {
+                            "phrase": "YOU UNDERSTAND YES NO",
+                            "meaning": "¿Entiendes?",
+                            "context": "Verificar comprensión"
+                        }
+                    ],
+                    "objectives": [
+                        "Formular preguntas claras",
+                        "Usar expresiones faciales de pregunta",
+                        "Entender respuestas"
+                    ],
+                    "tips": [
+                        "Las cejas levantadas indican pregunta",
+                        "Mantén la seña final brevemente",
+                        "Espera la respuesta pacientemente"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "level_4",
+            "name": "Conversación",
+            "description": "Practica diálogos en situaciones cotidianas",
+            "lessons": [
+                {
+                    "id": "L4_01_greeting_scenario",
+                    "title": "Escenario: Saludos",
+                    "description": "Practica una conversación de saludo completa",
+                    "duration_minutes": 30,
+                    "difficulty": "intermediate",
+                    "scenario_type": "roleplay",
+                    "scenario": {
+                        "context": "Encuentras a un amigo en la calle",
+                        "dialogue": [
+                            {"role": "user", "sign": "HELLO", "response": "¡Hola! ¿Cómo estás?"},
+                            {"role": "agent", "text": "¡Hola! Me alegra verte. ¿Cómo te va?"},
+                            {"role": "user", "sign": "THANK_YOU", "response": "¡Qué bien! Gracias por preguntar."},
+                            {"role": "agent", "text": "De nada. ¿A dónde vas?"},
+                            {"role": "user", "sign": "GOODBYE", "response": "Entiendo, ¡que te vaya bien!"}
+                        ]
+                    },
+                    "objectives": [
+                        "Mantener una conversación fluida",
+                        "Responder apropiadamente",
+                        "Despedirse cortésmente"
+                    ]
+                },
+                {
+                    "id": "L4_02_help_scenario",
+                    "title": "Escenario: Pidiendo Ayuda",
+                    "description": "Practica cómo pedir y ofrecer ayuda",
+                    "duration_minutes": 30,
+                    "difficulty": "intermediate",
+                    "scenario_type": "roleplay",
+                    "scenario": {
+                        "context": "Estás en una tienda y necesitas ayuda",
+                        "dialogue": [
+                            {"role": "user", "sign": "HELLO", "response": "Bienvenido, ¿en qué puedo ayudarte?"},
+                            {"role": "agent", "text": "¡Hola! ¿Buscas algo en particular?"},
+                            {"role": "user", "sign": "HELP", "response": "Claro, con gusto te ayudo."},
+                            {"role": "agent", "text": "¿Qué necesitas?"},
+                            {"role": "user", "sign": "PLEASE", "response": "Por supuesto, sígueme."},
+                            {"role": "user", "sign": "THANK_YOU", "response": "¡De nada! Vuelve pronto."}
+                        ]
+                    },
+                    "objectives": [
+                        "Pedir ayuda educadamente",
+                        "Entender respuestas",
+                        "Agradecer la asistencia"
+                    ]
+                },
+                {
+                    "id": "L4_03_introduction_scenario",
+                    "title": "Escenario: Conociendo Gente",
+                    "description": "Practica presentaciones y conocer personas nuevas",
+                    "duration_minutes": 30,
+                    "difficulty": "intermediate",
+                    "scenario_type": "roleplay",
+                    "scenario": {
+                        "context": "Estás en una reunión social",
+                        "dialogue": [
+                            {"role": "user", "sign": "HELLO", "response": "¡Hola! Mucho gusto."},
+                            {"role": "agent", "text": "¡Hola! ¿Cómo te llamas?"},
+                            {"role": "user", "sign": "MY_NAME", "response": "¡Qué nombre tan bonito!"},
+                            {"role": "agent", "text": "Yo me llamo Ana. ¿Es tu primera vez aquí?"},
+                            {"role": "user", "sign": "YES", "response": "¡Bienvenido! Te presento a mis amigos."},
+                            {"role": "user", "sign": "FRIEND", "response": "¡Genial! Espero que seamos buenos amigos."}
+                        ]
+                    },
+                    "objectives": [
+                        "Presentarte fluidamente",
+                        "Hacer preguntas básicas",
+                        "Establecer conexiones"
+                    ]
+                }
+            ]
+        }
+    ],
+    "achievements": [
+        {
+            "id": "first_sign",
+            "name": "Primera Seña",
+            "description": "Ejecutaste tu primera seña correctamente",
+            "icon": "🌟"
+        },
+        {
+            "id": "alphabet_master",
+            "name": "Maestro del Alfabeto",
+            "description": "Completaste el alfabeto completo A-Z",
+            "icon": "📚"
+        },
+        {
+            "id": "number_ninja",
+            "name": "Ninja Numérico",
+            "description": "Dominaste los números del 0 al 9",
+            "icon": "🔢"
+        },
+        {
+            "id": "greeting_guru",
+            "name": "Gurú de Saludos",
+            "description": "Aprendiste todas las señas de saludo",
+            "icon": "👋"
+        },
+        {
+            "id": "conversationalist",
+            "name": "Conversador",
+            "description": "Completaste tu primer escenario de roleplay",
+            "icon": "💬"
+        },
+        {
+            "id": "perfect_score",
+            "name": "Puntuación Perfecta",
+            "description": "Obtuviste 100% en una lección",
+            "icon": "🏆"
+        },
+        {
+            "id": "consistent_learner",
+            "name": "Aprendiz Constante",
+            "description": "Practicaste 7 días seguidos",
+            "icon": "🔥"
+        },
+        {
+            "id": "speed_signer",
+            "name": "Señas Rápidas",
+            "description": "Deletreaste una palabra en menos de 5 segundos",
+            "icon": "⚡"
+        }
+    ],
+    "daily_challenges": [
+        {
+            "id": "spell_name",
+            "type": "spelling",
+            "description": "Deletrea tu nombre completo",
+            "reward_xp": 50
+        },
+        {
+            "id": "count_to_ten",
+            "type": "numbers",
+            "description": "Cuenta del 1 al 10",
+            "reward_xp": 30
+        },
+        {
+            "id": "greet_three_ways",
+            "type": "practice",
+            "description": "Saluda de 3 formas diferentes",
+            "reward_xp": 40
+        },
+        {
+            "id": "roleplay_greeting",
+            "type": "conversation",
+            "description": "Completa un escenario de saludo",
+            "reward_xp": 100
+        }
+    ],
+    "reference_guide": {
+        "hand_positions": {
+            "palm_in": "Palma hacia tu cuerpo",
+            "palm_out": "Palma hacia afuera",
+            "palm_up": "Palma hacia arriba",
+            "palm_down": "Palma hacia abajo",
+            "palm_side": "Palma hacia el lado"
+        },
+        "finger_positions": {
+            "fist": "Puño cerrado",
+            "spread": "Dedos separados",
+            "together": "Dedos juntos",
+            "bent": "Dedos doblados",
+            "pointed": "Dedo(s) extendido(s)"
+        },
+        "movements": {
+            "none": "Sin movimiento",
+            "shake": "Agitar",
+            "rotate": "Rotar",
+            "wave": "Ondular",
+            "tap": "Tocar"
+        }
+    }
+}

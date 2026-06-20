@@ -1,0 +1,555 @@
+{
+    "metadata": {
+        "title": "Tutor de Lenguaje de Señas Mexicano (LSM) - Currículo",
+        "version": "2.0.0",
+        "author": "César Adrián Delgado Díaz",
+        "language": "LSM (Lenguaje de Señas Mexicano)",
+        "total_lessons": 15,
+        "last_updated": "2026-01-22",
+        "opencv_version": "4.13.0",
+        "mediapipe_version": "0.10.31"
+    },
+    "levels": [
+        {
+            "id": "nivel_1",
+            "name": "Fundamentos LSM",
+            "description": "Aprende los elementos básicos del Lenguaje de Señas Mexicano",
+            "lessons": [
+                {
+                    "id": "L1_01_alfabeto_am",
+                    "title": "Alfabeto LSM (A-M)",
+                    "description": "Aprende las primeras letras del alfabeto en LSM",
+                    "duration_minutes": 20,
+                    "difficulty": "principiante",
+                    "signs": ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M"],
+                    "objectives": [
+                        "Reconocer la posición de mano para cada letra",
+                        "Ejecutar cada seña con claridad",
+                        "Deletrear palabras simples en español"
+                    ],
+                    "tips": [
+                        "Mantén la mano al nivel del hombro",
+                        "Los dedos deben estar claramente definidos",
+                        "Practica frente a un espejo",
+                        "El LSM usa configuraciones de mano específicas de México"
+                    ],
+                    "practice_words": ["MAMA", "CAFE", "LAGO", "HOLA", "DIME"]
+                },
+                {
+                    "id": "L1_02_alfabeto_nz",
+                    "title": "Alfabeto LSM (N-Z) con Ñ",
+                    "description": "Completa el alfabeto LSM incluyendo la Ñ y RR",
+                    "duration_minutes": 25,
+                    "difficulty": "principiante",
+                    "signs": ["N", "Ñ", "O", "P", "Q", "R", "RR", "S", "T", "U", "V", "W", "X", "Y", "Z"],
+                    "objectives": [
+                        "Completar el conocimiento del alfabeto LSM",
+                        "Dominar la seña de la Ñ (única del español)",
+                        "Diferenciar entre R y RR",
+                        "Aumentar velocidad de deletreo"
+                    ],
+                    "tips": [
+                        "La Ñ en LSM tiene una configuración especial",
+                        "La RR implica movimiento vibratorio",
+                        "Presta atención a la orientación de la palma",
+                        "Practica transiciones suaves entre letras"
+                    ],
+                    "practice_words": ["NIÑO", "SEÑOR", "PERRO", "QUESO", "TAXISTA", "ZONA"]
+                },
+                {
+                    "id": "L1_03_numeros",
+                    "title": "Números (0-10)",
+                    "description": "Aprende a representar números del 0 al 10 en LSM",
+                    "duration_minutes": 15,
+                    "difficulty": "principiante",
+                    "signs": ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10"],
+                    "objectives": [
+                        "Representar cada número claramente",
+                        "Contar del 1 al 10 fluidamente",
+                        "Comunicar números de teléfono",
+                        "Expresar cantidades básicas"
+                    ],
+                    "tips": [
+                        "Los números 1-5 en LSM son similares al conteo manual",
+                        "Los números 6-9 tienen configuraciones específicas",
+                        "El 10 usa ambas manos",
+                        "Practica contando objetos cotidianos"
+                    ],
+                    "practice_numbers": ["123", "456", "789", "2026", "55"]
+                },
+                {
+                    "id": "L1_04_numeros_grandes",
+                    "title": "Números Grandes (100, 1000)",
+                    "description": "Aprende números grandes y cantidades",
+                    "duration_minutes": 15,
+                    "difficulty": "principiante",
+                    "signs": ["10", "100", "1000"],
+                    "objectives": [
+                        "Expresar centenas y millares",
+                        "Combinar números para cantidades",
+                        "Comunicar precios y direcciones"
+                    ],
+                    "tips": [
+                        "100 usa una configuración específica de mano",
+                        "1000 implica movimiento hacia arriba",
+                        "Practica con precios reales"
+                    ],
+                    "practice_numbers": ["100", "200", "1000", "2000"]
+                }
+            ]
+        },
+        {
+            "id": "nivel_2",
+            "name": "Palabras Básicas LSM",
+            "description": "Aprende palabras esenciales para comunicación básica en México",
+            "lessons": [
+                {
+                    "id": "L2_01_saludos",
+                    "title": "Saludos y Despedidas",
+                    "description": "Señas esenciales para saludar y despedirse en LSM",
+                    "duration_minutes": 15,
+                    "difficulty": "principiante",
+                    "signs": ["HOLA", "ADIOS", "BUENOS_DIAS", "BUENAS_NOCHES"],
+                    "objectives": [
+                        "Iniciar y terminar conversaciones",
+                        "Saludar según la hora del día",
+                        "Reconocer saludos de otros"
+                    ],
+                    "tips": [
+                        "HOLA en LSM usa movimiento de mano abierta",
+                        "BUENOS DÍAS incorpora el concepto de sol/mañana",
+                        "BUENAS NOCHES usa señas de luna/oscuridad",
+                        "Mantén expresión facial amigable"
+                    ],
+                    "practice_scenarios": [
+                        "Saluda a un compañero por la mañana",
+                        "Despídete al salir de casa",
+                        "Saluda a alguien por la noche"
+                    ]
+                },
+                {
+                    "id": "L2_02_cortesia",
+                    "title": "Expresiones de Cortesía",
+                    "description": "Aprende a expresar gratitud y pedir cosas amablemente",
+                    "duration_minutes": 15,
+                    "difficulty": "principiante",
+                    "signs": ["GRACIAS", "POR_FAVOR", "PERDON"],
+                    "objectives": [
+                        "Agradecer de forma apropiada",
+                        "Pedir cosas amablemente",
+                        "Disculparse cuando sea necesario"
+                    ],
+                    "tips": [
+                        "GRACIAS en LSM parte del mentón hacia afuera",
+                        "POR FAVOR implica movimiento suplicante",
+                        "PERDÓN muestra arrepentimiento con la expresión",
+                        "La expresión facial es muy importante en LSM"
+                    ],
+                    "practice_scenarios": [
+                        "Agradece por un regalo",
+                        "Pide agua por favor",
+                        "Discúlpate por llegar tarde"
+                    ]
+                },
+                {
+                    "id": "L2_03_respuestas",
+                    "title": "Respuestas Básicas",
+                    "description": "Aprende a responder sí, no y pedir ayuda",
+                    "duration_minutes": 15,
+                    "difficulty": "principiante",
+                    "signs": ["SI", "NO", "AYUDA"],
+                    "objectives": [
+                        "Responder preguntas simples",
+                        "Pedir ayuda cuando la necesites",
+                        "Comunicar acuerdo o desacuerdo"
+                    ],
+                    "tips": [
+                        "SÍ en LSM es como asentir con la mano cerrada",
+                        "NO usa movimiento lateral del dedo índice",
+                        "AYUDA es fundamental - practica hasta dominarlo",
+                        "Combina con expresiones faciales apropiadas"
+                    ],
+                    "practice_scenarios": [
+                        "Responde sí a una invitación",
+                        "Rechaza algo amablemente",
+                        "Pide ayuda en una emergencia"
+                    ]
+                },
+                {
+                    "id": "L2_04_familia",
+                    "title": "La Familia",
+                    "description": "Señas para referirse a miembros de la familia",
+                    "duration_minutes": 20,
+                    "difficulty": "principiante",
+                    "signs": ["FAMILIA", "MAMA", "PAPA", "HERMANO"],
+                    "objectives": [
+                        "Identificar miembros de la familia",
+                        "Presentar a tu familia",
+                        "Preguntar sobre familias de otros"
+                    ],
+                    "tips": [
+                        "MAMÁ y PAPÁ tienen señas distintivas en LSM",
+                        "HERMANO puede variar por género",
+                        "FAMILIA usa ambas manos en círculo",
+                        "Las señas de familia son muy usadas en México"
+                    ],
+                    "practice_scenarios": [
+                        "Presenta a tu mamá",
+                        "Habla sobre tu hermano",
+                        "Describe tu familia"
+                    ]
+                },
+                {
+                    "id": "L2_05_emociones",
+                    "title": "Emociones y Sentimientos",
+                    "description": "Expresa sentimientos básicos en LSM",
+                    "duration_minutes": 20,
+                    "difficulty": "intermedio",
+                    "signs": ["AMOR", "AMIGO"],
+                    "objectives": [
+                        "Expresar amor y amistad",
+                        "Comunicar emociones básicas",
+                        "Combinar señas con expresiones faciales"
+                    ],
+                    "tips": [
+                        "AMOR en LSM cruza los brazos sobre el pecho",
+                        "AMIGO usa el enganche de dedos índices",
+                        "Las expresiones faciales son cruciales en LSM",
+                        "La cultura mexicana valora mucho estas expresiones"
+                    ],
+                    "practice_scenarios": [
+                        "Expresa amor a alguien cercano",
+                        "Presenta a un amigo",
+                        "Describe a tu mejor amigo"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "nivel_3",
+            "name": "Vida Cotidiana",
+            "description": "Señas para situaciones del día a día en México",
+            "lessons": [
+                {
+                    "id": "L3_01_necesidades",
+                    "title": "Necesidades Básicas",
+                    "description": "Expresa necesidades básicas como agua y comida",
+                    "duration_minutes": 20,
+                    "difficulty": "intermedio",
+                    "signs": ["AGUA", "COMIDA", "CASA"],
+                    "objectives": [
+                        "Pedir agua y comida",
+                        "Referirse a lugares básicos",
+                        "Expresar necesidades inmediatas"
+                    ],
+                    "tips": [
+                        "AGUA simula beber de un vaso",
+                        "COMIDA lleva la mano a la boca",
+                        "CASA forma un techo con las manos",
+                        "Estas señas son universales pero LSM tiene sus variantes"
+                    ],
+                    "practice_scenarios": [
+                        "Pide agua en un restaurante",
+                        "Indica que tienes hambre",
+                        "Señala que vas a casa"
+                    ]
+                },
+                {
+                    "id": "L3_02_lugares",
+                    "title": "Lugares Comunes",
+                    "description": "Señas para trabajo, escuela y otros lugares",
+                    "duration_minutes": 20,
+                    "difficulty": "intermedio",
+                    "signs": ["TRABAJO", "ESCUELA"],
+                    "objectives": [
+                        "Identificar lugares comunes",
+                        "Hablar sobre tu rutina diaria",
+                        "Dar direcciones básicas"
+                    ],
+                    "tips": [
+                        "TRABAJO usa movimiento de martilleo",
+                        "ESCUELA simula escribir o leer",
+                        "Combina con señas de dirección",
+                        "Muy útil para conversaciones cotidianas"
+                    ],
+                    "practice_scenarios": [
+                        "Di que vas al trabajo",
+                        "Menciona que estudias",
+                        "Describe tu día típico"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "nivel_4",
+            "name": "Frases Simples LSM",
+            "description": "Combina señas para formar oraciones básicas en LSM",
+            "lessons": [
+                {
+                    "id": "L4_01_presentaciones",
+                    "title": "Presentaciones Personales",
+                    "description": "Aprende a presentarte usando LSM",
+                    "duration_minutes": 25,
+                    "difficulty": "intermedio",
+                    "signs": ["HOLA", "ME_LLAMO", "MUCHO_GUSTO"],
+                    "phrases": [
+                        {
+                            "phrase": "HOLA ME_LLAMO [deletrear nombre]",
+                            "meaning": "Hola, me llamo...",
+                            "context": "Presentación personal"
+                        },
+                        {
+                            "phrase": "MUCHO_GUSTO",
+                            "meaning": "Mucho gusto / Encantado",
+                            "context": "Después de conocer a alguien"
+                        }
+                    ],
+                    "objectives": [
+                        "Presentarte usando tu nombre deletreado",
+                        "Preguntar el nombre de otros",
+                        "Responder a presentaciones"
+                    ],
+                    "tips": [
+                        "Deletrea tu nombre claramente después de ME_LLAMO",
+                        "Usa expresiones faciales apropiadas",
+                        "Mantén contacto visual (importante en cultura sorda mexicana)",
+                        "MUCHO_GUSTO es muy usado en México"
+                    ]
+                },
+                {
+                    "id": "L4_02_preguntas",
+                    "title": "Preguntas Básicas",
+                    "description": "Formula preguntas simples en LSM",
+                    "duration_minutes": 25,
+                    "difficulty": "intermedio",
+                    "signs": ["COMO_ESTAS", "SI", "NO", "AYUDA", "POR_FAVOR"],
+                    "phrases": [
+                        {
+                            "phrase": "COMO_ESTAS",
+                            "meaning": "¿Cómo estás?",
+                            "context": "Saludo casual"
+                        },
+                        {
+                            "phrase": "AYUDA POR_FAVOR",
+                            "meaning": "¿Me puedes ayudar, por favor?",
+                            "context": "Pedir asistencia"
+                        }
+                    ],
+                    "objectives": [
+                        "Formular preguntas claras",
+                        "Usar expresiones faciales de pregunta",
+                        "Entender respuestas"
+                    ],
+                    "tips": [
+                        "Las cejas levantadas indican pregunta en LSM",
+                        "Mantén la seña final brevemente",
+                        "Espera la respuesta pacientemente",
+                        "El orden de palabras en LSM puede diferir del español hablado"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "nivel_5",
+            "name": "Conversación LSM",
+            "description": "Practica diálogos en situaciones cotidianas mexicanas",
+            "lessons": [
+                {
+                    "id": "L5_01_escenario_saludo",
+                    "title": "Escenario: Saludos en México",
+                    "description": "Practica una conversación de saludo completa",
+                    "duration_minutes": 30,
+                    "difficulty": "intermedio",
+                    "scenario_type": "roleplay",
+                    "scenario": {
+                        "context": "Encuentras a un conocido en la calle en México",
+                        "dialogue": [
+                            {"role": "user", "sign": "HOLA", "response": "¡Hola! ¿Cómo estás?"},
+                            {"role": "agent", "text": "¡Hola! Me alegra verte. ¿Cómo te va?"},
+                            {"role": "user", "sign": "GRACIAS", "response": "¡Qué bien! Gracias por preguntar."},
+                            {"role": "agent", "text": "De nada. ¿A dónde vas?"},
+                            {"role": "user", "sign": "TRABAJO", "response": "Ah, vas al trabajo. ¡Que te vaya bien!"},
+                            {"role": "user", "sign": "ADIOS", "response": "¡Hasta luego! ¡Cuídate!"}
+                        ]
+                    },
+                    "objectives": [
+                        "Mantener una conversación fluida",
+                        "Responder apropiadamente",
+                        "Despedirse cortésmente"
+                    ]
+                },
+                {
+                    "id": "L5_02_escenario_ayuda",
+                    "title": "Escenario: Pidiendo Ayuda",
+                    "description": "Practica cómo pedir y ofrecer ayuda",
+                    "duration_minutes": 30,
+                    "difficulty": "intermedio",
+                    "scenario_type": "roleplay",
+                    "scenario": {
+                        "context": "Estás en una tienda en México y necesitas ayuda",
+                        "dialogue": [
+                            {"role": "user", "sign": "HOLA", "response": "Bienvenido, ¿en qué puedo ayudarte?"},
+                            {"role": "agent", "text": "¡Hola! ¿Buscas algo en particular?"},
+                            {"role": "user", "sign": "AYUDA", "response": "Claro, con gusto te ayudo."},
+                            {"role": "agent", "text": "¿Qué necesitas?"},
+                            {"role": "user", "sign": "POR_FAVOR", "response": "Por supuesto, sígueme."},
+                            {"role": "user", "sign": "GRACIAS", "response": "¡De nada! Vuelve pronto."}
+                        ]
+                    },
+                    "objectives": [
+                        "Pedir ayuda educadamente",
+                        "Entender respuestas",
+                        "Agradecer la asistencia"
+                    ]
+                },
+                {
+                    "id": "L5_03_escenario_familia",
+                    "title": "Escenario: Hablando de la Familia",
+                    "description": "Practica presentar y hablar sobre tu familia",
+                    "duration_minutes": 30,
+                    "difficulty": "intermedio",
+                    "scenario_type": "roleplay",
+                    "scenario": {
+                        "context": "Un amigo te pregunta sobre tu familia",
+                        "dialogue": [
+                            {"role": "agent", "text": "¡Hola! ¿Tienes familia?"},
+                            {"role": "user", "sign": "SI", "response": "¡Qué bien! Cuéntame sobre ellos."},
+                            {"role": "user", "sign": "FAMILIA", "response": "¿Es grande tu familia?"},
+                            {"role": "user", "sign": "MAMA", "response": "¿Y tu mamá cómo está?"},
+                            {"role": "user", "sign": "PAPA", "response": "¿Tu papá también?"},
+                            {"role": "user", "sign": "AMOR", "response": "Se nota que los quieres mucho."}
+                        ]
+                    },
+                    "objectives": [
+                        "Hablar sobre tu familia",
+                        "Responder preguntas personales",
+                        "Expresar sentimientos familiares"
+                    ]
+                }
+            ]
+        }
+    ],
+    "achievements": [
+        {
+            "id": "primera_sena",
+            "name": "Primera Seña",
+            "description": "Ejecutaste tu primera seña correctamente",
+            "icon": "🌟"
+        },
+        {
+            "id": "maestro_alfabeto",
+            "name": "Maestro del Alfabeto LSM",
+            "description": "Completaste el alfabeto completo A-Z incluyendo Ñ",
+            "icon": "📚"
+        },
+        {
+            "id": "ninja_numerico",
+            "name": "Ninja Numérico",
+            "description": "Dominaste los números del 0 al 1000",
+            "icon": "🔢"
+        },
+        {
+            "id": "guru_saludos",
+            "name": "Gurú de Saludos",
+            "description": "Aprendiste todas las señas de saludo mexicanas",
+            "icon": "👋"
+        },
+        {
+            "id": "conversador",
+            "name": "Conversador",
+            "description": "Completaste tu primer escenario de roleplay",
+            "icon": "💬"
+        },
+        {
+            "id": "puntuacion_perfecta",
+            "name": "Puntuación Perfecta",
+            "description": "Obtuviste 100% en una lección",
+            "icon": "🏆"
+        },
+        {
+            "id": "aprendiz_constante",
+            "name": "Aprendiz Constante",
+            "description": "Practicaste 7 días seguidos",
+            "icon": "🔥"
+        },
+        {
+            "id": "senas_rapidas",
+            "name": "Señas Rápidas",
+            "description": "Deletreaste una palabra en menos de 5 segundos",
+            "icon": "⚡"
+        },
+        {
+            "id": "dominio_ene",
+            "name": "Dominio de la Ñ",
+            "description": "Ejecutaste correctamente la seña de la Ñ",
+            "icon": "🇲🇽"
+        }
+    ],
+    "daily_challenges": [
+        {
+            "id": "deletrear_nombre",
+            "type": "spelling",
+            "description": "Deletrea tu nombre completo en LSM",
+            "reward_xp": 50
+        },
+        {
+            "id": "contar_a_diez",
+            "type": "numbers",
+            "description": "Cuenta del 1 al 10",
+            "reward_xp": 30
+        },
+        {
+            "id": "saludar_tres_formas",
+            "type": "practice",
+            "description": "Saluda de 3 formas diferentes",
+            "reward_xp": 40
+        },
+        {
+            "id": "roleplay_saludo",
+            "type": "conversation",
+            "description": "Completa un escenario de saludo",
+            "reward_xp": 100
+        },
+        {
+            "id": "practicar_familia",
+            "type": "vocabulary",
+            "description": "Practica todas las señas de familia",
+            "reward_xp": 60
+        }
+    ],
+    "reference_guide": {
+        "hand_positions": {
+            "palm_in": "Palma hacia tu cuerpo",
+            "palm_out": "Palma hacia afuera",
+            "palm_up": "Palma hacia arriba",
+            "palm_down": "Palma hacia abajo",
+            "palm_side": "Palma hacia el lado"
+        },
+        "finger_positions": {
+            "fist": "Puño cerrado",
+            "spread": "Dedos separados",
+            "together": "Dedos juntos",
+            "bent": "Dedos doblados",
+            "pointed": "Dedo(s) extendido(s)"
+        },
+        "movements": {
+            "none": "Sin movimiento",
+            "shake": "Agitar",
+            "rotate": "Rotar",
+            "wave": "Ondular",
+            "tap": "Tocar",
+            "circular": "Circular"
+        },
+        "lsm_specific": {
+            "ñ_movement": "Movimiento ondulante para la Ñ",
+            "rr_vibration": "Vibración para la RR",
+            "mexican_expressions": "Las expresiones faciales son fundamentales en LSM"
+        }
+    },
+    "cultural_notes": {
+        "deaf_community_mexico": "La comunidad sorda en México tiene una rica cultura y el LSM es su lengua natural",
+        "regional_variations": "Pueden existir variaciones regionales del LSM en diferentes estados de México",
+        "respect": "Siempre muestra respeto por la cultura sorda y el LSM",
+        "facial_expressions": "Las expresiones faciales no son opcionales en LSM, son parte gramatical de la lengua"
+    }
+}
